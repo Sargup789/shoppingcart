@@ -120,7 +120,7 @@ function App() {
                    -
                 </button>
                 <span className='cart-item-qty'>{item.quantity}</span>
-                <button onClick={() => updateQuantity(item.i, 1)} 
+                <button onClick={() => updateQuantity(item.id, 1)} 
                   className='qty-btn-plus'
                   >
                    +
